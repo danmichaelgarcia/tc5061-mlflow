@@ -368,7 +368,7 @@ def main(argv=None):
         "dataset_md5": hash_archivo(data_path),
     }
 
-    run_name = args.run_name or f"logreg_C{args.C}_{args.class_weight}_{args.solver}_it{args.max_iter}_s{args.seed}"
+    run_name = args.run_name or f"logreg_C{args.C}_{args.class_weight}_{args.solver}_it{args.max_iter}_s{args.seed}_n{args.n_sample}"
 
     with mlflow.start_run(run_name=run_name) as run, tempfile.TemporaryDirectory() as tmp:
         mlflow.set_tags({
