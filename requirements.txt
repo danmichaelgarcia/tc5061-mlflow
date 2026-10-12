@@ -1,0 +1,8 @@
+kagglehub==1.0.2
+matplotlib==3.11.2
+mlflow==3.16.1
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+seaborn==0.13.2
+skops==0.16.0

@@ -1,0 +1,10 @@
+data/
+mlflow.db
+mlruns/
+mlartifacts/
+comparacion_corridas.csv
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
